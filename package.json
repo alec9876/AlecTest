@@ -1,0 +1,24 @@
+{
+  "name": "AlecTest",
+  "version": "1.0.0",
+  "description": "This is the beginning of a new project where I try to add some more depth to my personal website.",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alec9876/AlecTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alec9876/AlecTest/issues"
+  },
+  "homepage": "https://github.com/alec9876/AlecTest#readme"
+}

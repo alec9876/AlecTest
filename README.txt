@@ -1,0 +1,1 @@
+This is the beginning of a new project where I try to add some more depth to my personal website.
