@@ -2,6 +2,10 @@ html, body{
     height: 100%;
 }
 
+body {
+    background-image: linear-gradient(teal, black);
+}
+
 .vertical-center {
     min-height: 100%;
     min-height: 100vh;
@@ -11,4 +15,59 @@ html, body{
 
 h1, p {
     font-family: "Ubuntu", sans-serif;
+}
+
+.inline-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 11em;
+    height: 9em;
+    transform: rotate(90deg);
+}
+
+p{
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 770px)
+{
+    .display-1 {
+        font-size: 4rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .btn {
+        .75rem;
+    }
+
+}
+
+@media only screen and (max-width: 426px)
+{
+    .display-1 {
+        font-size: 3rem;
+    }
+    
+    .lead {
+        font-size: 1rem;       
+    }
+
+    .btn {
+        font-size: .60rem;
+    }
+}
+
+@media only screen and (min-width: 426px) { 
+
+    .break {
+        display: none;
+    }
+
 }
