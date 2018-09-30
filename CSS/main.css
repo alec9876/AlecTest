@@ -23,14 +23,24 @@ h1, p {
     align-items: center;
 }
 
-img {
-    width: 11em;
-    height: 9em;
+.btn {
+    background-color: teal;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(0, 111, 128);
+    color: white;
+}
+
+.aboutme-pic {
+    width: 25em;
+    height: 25em;
     transform: rotate(90deg);
 }
 
-p{
-    overflow: hidden;
+.aboutme {
+    font-size: 1rem;
 }
 
 @media only screen and (max-width: 770px)
@@ -43,9 +53,7 @@ p{
         font-size: 1rem;
     }
 
-    .btn {
-        .75rem;
-    }
+   
 
 }
 
@@ -59,8 +67,18 @@ p{
         font-size: 1rem;       
     }
 
+    .aboutme {
+        font-size: .5em;
+    }
+
     .btn {
         font-size: .60rem;
+    }
+
+    .aboutme-pic {
+        width: 5em;
+        height: 5em;
+        float: right;
     }
 }
 
@@ -70,4 +88,7 @@ p{
         display: none;
     }
 
+    .text-dark {
+        font-size: .3rem;
+    }
 }
