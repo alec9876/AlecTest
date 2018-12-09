@@ -1,1 +1,1 @@
-This is the beginning of a new project where I try to add some more depth to my personal website.
+This is my personal website that I use to showcase my projects and contact information. I use basic HTML, CSS, and JavaScript for this site.
