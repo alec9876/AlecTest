@@ -33,11 +33,11 @@ h1, p {
     color: white;
 }
 
-.aboutme-pic {
+/* .aboutme-pic {
     width: 25em;
     height: 25em;
     transform: rotate(90deg);
-}
+} */
 
 .aboutme {
     font-size: 1rem;
